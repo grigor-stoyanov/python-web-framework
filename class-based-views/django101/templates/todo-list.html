@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block  content %}
+    {% for task in object_list %}
+        <div>
+            {{ task.title }}
+        </div>
+    {% endfor %}
+    {% for todo in todos %}
+        <div>
+            <a href="{% url 'todo details' todo.pk %}">{{ todo.title }}</a>
+        </div>
+
+    {% endfor %}
+{% endblock %}
