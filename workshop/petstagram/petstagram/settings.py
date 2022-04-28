@@ -18,12 +18,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
+
+# HEROKU can add environment variables trough the website making all of these hidden
+# plugin envfile can save local configuration in .env
+
+# SECRET KEY HIDDEN
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-nsez&j0u%!o#pj7*!pyj+2@xyk*p)7%v7@mk__61ycl_)77@yp'
 
+# DEBUG FALSE
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+# DEBUG = os.getenv('DEBUG','FALSE') == 'True'
+# ALLOWED HOSTS CONFIGURED FOR PRODUCTION
 ALLOWED_HOSTS = []
 
 # Application definition
@@ -48,6 +55,7 @@ LOGGING = {
     },
     'handlers': {
         'console': {
+            # DEBUG,WARNING,INFO,ERROR,CRITICAL usually info on production
             'level': 'DEBUG',
             'filters': ['require_debug_true'],
             'class': 'logging.StreamHandler',

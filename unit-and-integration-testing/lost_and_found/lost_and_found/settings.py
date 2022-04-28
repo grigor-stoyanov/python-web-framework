@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'lost_and_found.objects_posts',
+    'lost_and_found.web',
 ]
 
 MIDDLEWARE = [

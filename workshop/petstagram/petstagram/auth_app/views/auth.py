@@ -1,3 +1,4 @@
+from django.contrib.auth import authenticate
 from django.contrib.auth.views import LoginView, PasswordChangeView
 from django.shortcuts import render
 from django.urls import reverse_lazy
@@ -34,7 +35,6 @@ class UserRegisterView(RedirectToDashboard, CreateView):
     form_class = CreateProfileForm
     template_name = 'accounts/profile_create.html'
     success_url = reverse_lazy('dashboard')
-
 
 class UserLoginView(LoginView):
     template_name = 'accounts/login_page.html'

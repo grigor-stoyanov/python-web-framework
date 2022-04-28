@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7404c81c-4f60-4337-873e-dafc68cad880" name="Changes" comment="" />
+    <list default="true" id="7404c81c-4f60-4337-873e-dafc68cad880" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../deployment-hosting-and-monitoring/demo/demo/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deployment-hosting-and-monitoring/demo/demo/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django-rest-framework/demo/demo/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django-rest-framework/demo/demo/main/migrations/0002_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django-rest-framework/demo/demo/main/migrations/0003_product_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django-rest-framework/demo/demo/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django-rest-framework/demo/demo/web/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit-and-integration-testing/lost_and_found/lost_and_found/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit-and-integration-testing/lost_and_found/lost_and_found/objects_posts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-and-integration-testing/lost_and_found/lost_and_found/objects_posts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit-and-integration-testing/lost_and_found/lost_and_found/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-and-integration-testing/lost_and_found/lost_and_found/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit-and-integration-testing/lost_and_found/mydatabase" beforeDir="false" afterPath="$PROJECT_DIR$/../unit-and-integration-testing/lost_and_found/mydatabase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83dff3f4-e1c0-48cd-a97f-06b32a3581a8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/83dff3f4-e1c0-48cd-a97f-06b32a3581a8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83dff3f4-e1c0-48cd-a97f-06b32a3581a8/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/83dff3f4-e1c0-48cd-a97f-06b32a3581a8/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83dff3f4-e1c0-48cd-a97f-06b32a3581a8/storage_v2/_src_/database/workshop_db.Nn7zDg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/83dff3f4-e1c0-48cd-a97f-06b32a3581a8/storage_v2/_src_/database/workshop_db.Nn7zDg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef1831fe-120d-4a7f-bc9a-84b07dd82dfe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef1831fe-120d-4a7f-bc9a-84b07dd82dfe/storage_v2/_src_/database/workshop_db.Nn7zDg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef1831fe-120d-4a7f-bc9a-84b07dd82dfe/storage_v2/_src_/database/workshop_db.Nn7zDg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef1831fe-120d-4a7f-bc9a-84b07dd82dfe/storage_v2/_src_/database/workshop_db.Nn7zDg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef1831fe-120d-4a7f-bc9a-84b07dd82dfe/storage_v2/_src_/database/workshop_db.Nn7zDg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/petstagram/auth_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/petstagram/auth_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/petstagram/auth_app/views/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/petstagram/auth_app/views/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/petstagram/main/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/petstagram/main/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/petstagram/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/petstagram/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/templates/accounts/profile_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/templates/accounts/profile_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/templates/main/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/templates/main/home_page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../authentication-and-security/demo" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +84,27 @@
       <recent name="D:\python-web-framework\workshop\petstagram\templates" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: petstagram.main.tests.ProfileDetailsViewTests.test__when_all_valid_expect_correct_template">
+    <configuration name="Test: petstagram.main.tests.ProfileDetailsViewTests.test__when_all_valid_expect_correct_template" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="petstagram.main.tests.ProfileDetailsViewTests.test__when_all_valid_expect_correct_template" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="petstagram" type="Python.DjangoServer" factoryName="Django server">
       <module name="workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +129,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: petstagram.main.tests.ProfileDetailsViewTests.test__when_all_valid_expect_correct_template" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,6 +167,20 @@
       <workItem from="1647615406114" duration="2245000" />
       <workItem from="1647865925213" duration="35000" />
       <workItem from="1647866019952" duration="45000" />
+      <workItem from="1648724868923" duration="4794000" />
+      <workItem from="1648803776868" duration="10920000" />
+      <workItem from="1648824475046" duration="10576000" />
+      <workItem from="1648839708530" duration="296000" />
+      <workItem from="1648840195180" duration="1106000" />
+      <workItem from="1648841471437" duration="302000" />
+      <workItem from="1648841996570" duration="3036000" />
+      <workItem from="1648847365322" duration="3627000" />
+      <workItem from="1649423871747" duration="741000" />
+      <workItem from="1649458177103" duration="945000" />
+      <workItem from="1649459503799" duration="1358000" />
+      <workItem from="1649475045205" duration="123000" />
+      <workItem from="1649849195582" duration="33000" />
+      <workItem from="1650628270662" duration="23000" />
     </task>
     <servers />
   </component>
@@ -163,5 +232,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/workshop$Test__petstagram_main_tests_ProfileDetailsViewTests_test__when_all_valid_expect_correct_template.coverage" NAME="Test: petstagram.main.tests.ProfileDetailsViewTests.test__when_all_valid_expect_correct_template Coverage Results" MODIFIED="1648849976975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

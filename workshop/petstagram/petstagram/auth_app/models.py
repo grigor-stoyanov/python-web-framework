@@ -15,17 +15,17 @@ from petstagram.common.validators import only_letters_validator
 
 
 class PetstagramUser(AbstractBaseUser, PermissionsMixin):
-    USERNAME_MAX_LENGTH = 25
-    username = models.CharField(
-        max_length=USERNAME_MAX_LENGTH,
-        unique=True,
-    )
-    date_joined = models.DateTimeField(auto_now_add=True)
-    is_staff = models.BooleanField(default=False)
+        USERNAME_MAX_LENGTH = 25
+        username = models.CharField(
+            max_length=USERNAME_MAX_LENGTH,
+            unique=True,
+        )
+        date_joined = models.DateTimeField(auto_now_add=True)
+        is_staff = models.BooleanField(default=False)
 
-    USERNAME_FIELD = 'username'
+        USERNAME_FIELD = 'username'
 
-    objects = PetstagramUserManager()
+        objects = PetstagramUserManager()
 
 
 class Profile(models.Model):
