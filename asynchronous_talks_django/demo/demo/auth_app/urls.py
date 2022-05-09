@@ -1,0 +1,2 @@
+urlpatterns = []
+from .signals import *
